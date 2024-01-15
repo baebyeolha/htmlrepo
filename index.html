@@ -8,8 +8,24 @@
 <body>
 
     <h1>html의 여러 태그 알아보기</h1>
+    오늘은 html에 대해 배운 첫날입니다. 사이트를 참고해 다양한 태그를 배우고 배운 태그를 정리하는 시간을 가졌습니다<br>
 
-    <iframe src = "https://www.w3schools.com/tags/tag_details.asp"></iframe>
+    <p>*참고사이트<br>
+        <a href="https://www.w3schools.com/tags/tag_details.asp">w3schools</a> 
+        <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web">deveolper</a><br>
+    </p>
+
+    <h2><details>
+        <summary><b>목차</b></summary>
+        <p>1. The audio element</p>
+        <p>2. The button element</p>
+        <p>3. The details element</p>
+        <p>4. The form element</p>
+        <p>5. The progress element</p>
+        <p>6. The The img element</p>
+
+    </details></h2>
+
     <h3>1. The audio element</h3>
     <p>Click on the play button to play a sound:</p>
     <audio controls>
@@ -28,14 +44,27 @@
     </details>
     
     <h3>4.The form element</h3>
-
-    <form action="/action_page.php">
-        <label for="fname"> 성:</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <label for="lname"> 이름:</label>
-        <input type="text" id="lname" name="lname"><br><br>
+    <label action="/action_page.php">
+        <label for="name"> name:</label>
+        <input type="text" id="name" name="name"><br>
+        <label for="birth"> Birth:</label>
+        <input type = "date" id="birth" name="birth"><br>
+        <label for="file"> Profile:</label>
+        <input type = "file" id="file" name="file"><br>
         <input type="submit" value="Submit">
+
     </form>
     
+    <h3>5.The progress element</h3>
+    Start: 2023/12/27<br>
+    End: 2024/06/27 <br>
+    <p><b>Today: 2024/01/15</b></p>
+
+    <label for="file">Sinhan progress:</label>
+    <progress id="file" value="12" max="123"></progress>
+
+    <h3>6.The img element</h3>
+    <img src="profile.jpg" width="300" height="300">
+
 </body>
 </html>
