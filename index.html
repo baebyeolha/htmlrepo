@@ -1,70 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel='stylesheet' href='./style.css'>
 </head>
+
 <body>
+    <nav>
+        <!-- pure HTML/CSS/JS -->
+        <div class="navItem">Home</div>
 
-    <h1>html의 여러 태그 알아보기</h1>
-    오늘은 html에 대해 배운 첫날입니다. 사이트를 참고해 다양한 태그를 배우고 배운 태그를 정리하는 시간을 가졌습니다<br>
+        <!-- 리액트/뷰같은 프레임워크 스타일 -->
+        <div class="navItem">Project</div>
+        <div class="navItem">Recommend</div>
+        <div class="navItem">Home</div>
+    </nav>
 
-    <p>*참고사이트<br>
-        <a href="https://www.w3schools.com/tags/tag_details.asp">w3schools</a> 
-        <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web">deveolper</a><br>
-    </p>
+    <header>
+        
+        <div class = "group">
 
-    <h2><details>
-        <summary><b>목차</b></summary>
-        <p>1. The audio element</p>
-        <p>2. The button element</p>
-        <p>3. The details element</p>
-        <p>4. The form element</p>
-        <p>5. The progress element</p>
-        <p>6. The The img element</p>
+            <div class="headerContainer">
 
-    </details></h2>
-
-    <h3>1. The audio element</h3>
-    <p>Click on the play button to play a sound:</p>
-    <audio controls>
-      <source src="horse.ogg" type="audio/ogg">
-      <source src="horse.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
-
-    <h3>2. The button Element</h3>
-    <button type="button" onclick="alert('Hello world!')">Click Me!</button>
-
-    <h3>3. The details element</h3>
-    <details>
-        <summary>토글</summary>
-        <p>details를 이용하면 토글을 생성할 수 있다</p>
-    </details>
+                <div class="badge">👋 안녕하세요!</div>
+                    <h1>신입 백엔드 개발자.<br />
+                    <em>Problem Solver.</em><br />
+                    OOO입니다.<br />
+                    </h1>
+                <div class="headerLinkContainer">
+                    <a class="headerLink1" href="https://www.google.com" target="_blank">Github Link</a>
+                    <a class="headerLink2" href="#" target="_blank">Resume Link</a>
+                </div>
     
-    <h3>4.The form element</h3>
-    <label action="/action_page.php">
-        <label for="name"> name:</label>
-        <input type="text" id="name" name="name"><br>
-        <label for="birth"> Birth:</label>
-        <input type = "date" id="birth" name="birth"><br>
-        <label for="file"> Profile:</label>
-        <input type = "file" id="file" name="file"><br>
-        <input type="submit" value="Submit">
-
-    </form>
+            </div>
+            
+            <div class = "img">
+                
+            </div>
     
-    <h3>5.The progress element</h3>
-    Start: 2023/12/27<br>
-    End: 2024/06/27 <br>
-    <p><b>Today: 2024/01/15</b></p>
 
-    <label for="file">Sinhan progress:</label>
-    <progress id="file" value="12" max="123"></progress>
+        </div>
+        
 
-    <h3>6.The img element</h3>
-    <img src="profile.jpg" width="300" height="300">
+    </header>
+
+    <section>
+        <div class ="1Container">
+
+            <div class="myintro">
+                <h3>끊임없이 배우고<br> 집요하게 해결하는 백엔드 개발자 OOO입니다.</h3>
+
+                <div class ="content">
+                    항상 새로운 기술에 열려 있으며, 문제 해결에 대한 열정으로 프로젝트에 참여합니다. <br>
+                    꾸준한 성장과 협업을 통해 새로운 아이디어를 탐험하고 효과적인 솔루션을 찾는 것을 즐깁니다. <br>
+                    강력한 분석 및 문제 해결 능력으로 효율적이고 확장 가능한 코드를 작성하는 것에 자부심을 가지고 있습니다. <br>
+                    팀과 함께 협력하며, 사용자 중심의 솔루션을 만들기 위해 노력하고 있습니다. <br>
+                    끊임없는 도전을 통해 성장하는 개발자로서 기여하고 싶습니다.
+                </div>
+                
+            </div>
+
+        </div>
+    </section>
 
 </body>
+
 </html>
