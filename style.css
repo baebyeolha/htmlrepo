@@ -414,8 +414,6 @@ left: 400px;
 
 
 
-
-
 /*컨택 버튼*/
 .button{
 position: fixed;
@@ -437,3 +435,155 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
+
+
+/*동료 피드백*/
+
+.Container4{
+  width: 1360px;
+  height: 609px;
+  display: flex;
+  padding: 80px 0px 120px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+
+}
+
+.feedbacktitle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+
+  color: #403930;
+  font-family: Pretendard;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%; /* 50px */
+  letter-spacing: -0.8px;
+}
+
+.feedbackcontent{
+  width: 1120px;
+  display: flex;
+  align-items: center;
+  gap: 94px;
+
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.fbc{
+  display: flex;
+  width: 460px;
+  height: 264px;
+  padding: 0px 39px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  border-radius: 10px;
+  background: #FAFAFA;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15); 
+}
+
+.fbccontent{
+  width: 391px;
+  color: #403930;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
+}
+
+.fdcwriter{
+  width: 361px;
+  color: #403930;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 125% */
+}
+
+/*포부*/
+
+.Container5{
+  display: flex;
+  width: 1600px;
+  height: 406px;
+  padding: 64px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+
+  background: #E6EEFF;
+}
+
+.promise{
+  display: flex;
+  width: 1120px;
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 56px;
+  
+
+  color: #403930;
+  font-family: Pretendard;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%; /* 60px */
+  letter-spacing: -0.96px;
+}
+
+/*footer*/
+
+.footer{
+  width: 1366px;
+  height: 182px;
+  background: #FAFAFA;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.iconcontainer{
+  height: 30px;
+  padding: 53px 606px 99px 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+
+.email{
+  display:flex;
+  justify-content: center;
+  width: 222.979px;
+  color: var(--Dark, #21243D);
+  text-align: center;
+  font-family: Heebo;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 640px;
+  margin-top: -80px;
+
+
+}
+
