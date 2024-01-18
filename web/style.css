@@ -171,7 +171,7 @@ header h1 em {
 
   border-radius: 500px;
   border: 10px solid #BCF2F9;
-  background: url(day1/1.jpg), lightgray 50% / cover no-repeat;
+  background: url(1.jpg), lightgray 50% / cover no-repeat;
   background-size: 120% 100%;
   
  
@@ -555,35 +555,36 @@ line-height: normal;
 .footer{
   width: 1366px;
   height: 182px;
-  background: #FAFAFA;
+  flex-shrink: 0;
+  background: #FAFAFA; 
+}
+
+.rec{
+  width: 1366px;
+  height: 182px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  
+
 }
 
 .iconcontainer{
-  height: 30px;
-  padding: 53px 606px 99px 600px;
-  display: flex;
-  flex-direction: row;
+  width:auto;
+  height: auto;
   justify-content: center;
-  align-items: center;
+  display: inline-flex;
+  flex-direction: row;
   gap: 35px;
 }
 
 .email{
   display:flex;
   justify-content: center;
-  width: 222.979px;
   color: var(--Dark, #21243D);
   text-align: center;
   font-family: Heebo;
   font-size: 14px;
   font-style: normal;
-  font-weight: 400;
-  margin-left: 640px;
-  margin-top: -80px;
-
-
+  
 }
 

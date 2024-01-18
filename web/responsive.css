@@ -265,7 +265,7 @@ header h1 em {
   align-items: flex-start;
   gap: 32px;
   flex: 1 0 0; 
-  flex-direction:column-reverse ;
+
   
 }
 
@@ -282,9 +282,11 @@ header h1 em {
 }
 
 .Project1{
+  width: 100%;
+  box-sizing: border-box;
   display: flex;
   padding: 24px 16px;
-  flex-direction: column; 
+  flex-direction: column-reverse; 
   justify-content: center;
   align-items: center;
   gap: 16px;
@@ -294,48 +296,28 @@ header h1 em {
 }
 
 .ProPhotoContainer{
+  width: 100%;
   height: 202.497px;
   align-self: stretch;
+  display: flex;
+  justify-content: space-around;
 }
 
-.photorec{
+.photorec, .photoG {
+  width:100%;
   height: 202.497px;
   align-self: stretch;
+  display: flex;
+  justify-content: space-around;
 }
 
-.photoG{
-  height: 202.497px;
-  align-self: stretch;
-}
-
-
-.photo1{
+.photo1 img, .photo2 img, .photo3 img{
   width: 94.815px;
   height: 202.497px;
-  flex-shrink: 0;
   border-radius: 16.08px;
-  background: url(prom1.png), lightgray 50% / cover no-repeat;
-  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15);
-  
-}
-
-.photo2{
-  width: 94.815px;
-  height: 202.497px;
-  flex-shrink: 0;
-  border-radius: 16.08px;
-  background: url(prom2.png), lightgray 50% / cover no-repeat;
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15);
 }
 
-.photo3{
-  width: 94.815px;
-  height: 202.497px;
-  flex-shrink: 0;
-  border-radius: 16.08px;
-  background: url(prom3.png), lightgray 50% / cover no-repeat;
-  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15);
-}
 
 .Proscript1{
   display: flex;
@@ -386,3 +368,150 @@ header h1 em {
   line-height: 150%; /* 30px */
   text-decoration-line: underline;
 }
+
+/*동료 피드백*/
+
+.Container4{
+
+  width: 390px;
+  padding: 100px 24px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  align-self: stretch;
+
+}
+
+.feedbacktitle{
+  color: #403930;
+
+/* sectionTitle */
+font-family: Pretendard;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px; /* 108.333% */
+letter-spacing: -0.48px;
+}
+
+.feedbackcontent{
+  width: auto;
+  height: 100%;
+  display: flex;
+  padding: 0px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+}
+
+.fbc{
+  width: 100%;
+  display: flex;
+  padding: 24px 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+
+  border-radius: 10px;
+  background: #FAFAFA;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.fbccontent{
+  width:100%;
+  color: #403930;
+  font-family: Pretendard;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 21px */
+}
+
+.fbcwriter{
+  align-self: stretch;
+  color: #1866AF;
+text-align: right;
+font-family: Pretendard;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 208.333% */
+}
+
+
+/*포부*/
+
+.Container5{
+  width:100%;
+  height: auto;
+  display: flex;
+padding: 60px 24px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+background: #E6EEFF;
+
+}
+
+.promise{
+  width: 100%;
+  height: auto;
+  color: #403930;
+font-family: Pretendard;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 125%; /* 30px */
+letter-spacing: -0.48px;
+}
+
+/*footer*/
+
+.footer{
+  display: flex;
+padding: 40px 0px;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+align-self: stretch;
+
+
+}
+.rec{
+  width: 374.4px;
+height: 182px;
+flex-shrink: 0;
+background: #FAFAFA;
+justify-content: center;
+align-items: center;
+
+}
+.iconcontainer{
+
+  height: auto;
+  display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+align-self: stretch;
+
+}
+
+.email{
+  align-self: stretch;
+  color: var(--Dark, #21243D);
+text-align: center;
+font-family: Heebo;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
