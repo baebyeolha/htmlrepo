@@ -251,7 +251,7 @@ header h1 em {
 .Container3{
   display: flex;
   flex-direction: column;
-  width: 390px;
+  width: inherit;
   padding: 60px 24px;
   justify-content: center;  
   align-items: center;
@@ -259,7 +259,7 @@ header h1 em {
 }
 
 .Projects{
-  width:342px;
+  width:100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -375,7 +375,8 @@ header h1 em {
 
 .Container4{
 
-  width: 390px;
+  width: inherit;
+  height: auto;
   padding: 100px 24px;
   flex-direction: column;
   display: flex;
@@ -410,7 +411,7 @@ letter-spacing: -0.48px;
 }
 
 .fbc{
-  width: 100%;
+  width: inherit;
   display: flex;
   padding: 24px 16px;
   flex-direction: column;
@@ -449,7 +450,7 @@ line-height: 25px; /* 208.333% */
 /*포부*/
 
 .Container5{
-  width:100%;
+  width:inherit;
   height: auto;
   display: flex;
 padding: 60px 24px;
@@ -487,7 +488,7 @@ align-self: stretch;
 
 }
 .rec{
-  width: 374.4px;
+  width: inherit;
 height: 182px;
 flex-shrink: 0;
 background: #FAFAFA;
