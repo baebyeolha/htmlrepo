@@ -473,7 +473,11 @@ line-height: normal;
   display: flex;
   align-items: flex-start;
   gap: 40px;
+
+  overflow: auto;
+  white-space: nowrap;
 }
+
 
 .fbc{
   display: flex;
@@ -491,6 +495,8 @@ line-height: normal;
 }
 
 .fbccontent{
+  white-space: normal;
+  word-wrap: break-word;
   width: 391px;
   color: #403930;
   font-family: Work Sans;
