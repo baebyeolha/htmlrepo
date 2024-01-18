@@ -23,3 +23,5 @@ jobs:
       - name: Upload to S3
         run: |
           aws s3 sync web s3://baestar/
+      - name: Invalidate cloudfront
+        run: aws cloudfront create-invalidation --distribution-id E371RQESTNOOKQ --paths /* # 무효화 자동
